@@ -1,0 +1,178 @@
+html
+{
+    overflow-y: scroll;
+}
+
+.header
+{
+    background-image: url("https://i.imgur.com/yiI4YoI.jpg");
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 7vw;
+    letter-spacing: 6px;
+}
+
+.headerLink
+{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar
+{
+    background-color: #227c27;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.navbar a
+{
+    color: white;
+    text-decoration: none;
+}
+
+table, th, td
+{
+    border: 1px solid #146018;
+    border-width: medium;
+    padding: 10px;
+    text-align: left;
+    border-collapse: collapse;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table
+{
+    table-layout: fixed;
+    width: 75%;
+}
+
+th
+{
+    color: white;
+    background-color: #227c27;
+}
+
+th a
+{
+    color: white;
+    text-decoration: none;
+}
+
+tr:hover, textarea:hover, textarea:focus, input:hover, input:focus
+{
+    background-color: #ffffcc;
+}
+
+.userTable td
+{
+    text-align: center;
+}
+
+.editTable td, table
+{
+    text-align: center;
+    border: none;
+}
+
+.editTable tr:hover
+{
+    background-color: white;
+}
+
+.threadTitleColumn
+{
+    width: 45%;
+    overflow: visible;
+    border-right: none;
+}
+
+.threadAuthorColumn
+{
+    border-left: none;
+    border-right: none;
+}
+
+.threadTimestampColumn
+{
+    border-left: none;
+}
+
+.postAuthorColumn
+{
+    width: 18%;
+    overflow: visible;
+    border-right: none;
+}
+
+.postContentColumn
+{
+    border-left: none;
+}
+
+.postAuthorData
+{
+    vertical-align: top;
+}
+
+.postContentData
+{
+    vertical-align: top;
+    white-space: normal;
+}
+
+.newThread
+{
+    float: right;
+}
+
+.newPost
+{
+    float: right;
+}
+
+label
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input, textarea
+{
+    border-radius: 6px;
+    border: 1px solid #146018;
+    border-width: medium;
+    padding: 10px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.radioNo, .radioYes
+{
+    color: white;
+    background-color: #227c27;
+    font-weight: bold;
+    border: 1px solid #146018;
+    border-width: medium;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: left;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button
+{   
+    color: white;
+    background-color: #227c27;
+    font-weight: bold;
+    border: 1px solid #146018;
+    border-width: medium;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: left;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
